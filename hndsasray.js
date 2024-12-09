@@ -10,8 +10,8 @@ var setCookie = function (n, val) {
 };
 
 document.onclick = function (e) {
-  if (e.target.className == 'body') {
-      var bg =   document.getElementById('body').style.filter='invert(1)';
+  if (e.target.className == 'click') {
+      var bg =   document.getElementById('bdy').style.filter='invert(1)';
       setCookie('color', bg);
   
 }
