@@ -38,7 +38,7 @@ function getcolor() {
   console.log(getCookie("color"));
   if(getCookie("color") != ""){
       setCookie('color', getCookie("color"));
-      document.body.style.filter = getCookie("invert(1)");
+      document.body.style.filter = getCookie("color");
   }
   
 };
